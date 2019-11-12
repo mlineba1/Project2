@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "738bce5a-dde9-482f-963e-530df51adb81",
+            "Value": {
+                "id": "141275e4-becd-45e2-8345-2c3a148b11c2",
+                "resourcePath": "objects\\obj_guiController\\obj_guiController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "77f43f81-078a-43cb-9d27-29902efa6cd6",
             "Value": {
                 "id": "47393f5e-de24-4cca-b9c2-2d9144e5dd66",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "8503ea87-dd81-4fb9-b5cb-45a0a6ae0c70",
+            "Value": {
+                "id": "7a7e1391-81b2-4192-a732-f08d7bfd5180",
+                "resourcePath": "sprites\\spr_rat\\spr_rat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "892bbfa1-3b17-4887-97d2-0a7c85f3d173",
             "Value": {
                 "id": "b3e0afbf-28d9-463b-b418-e7a8daee00f4",
@@ -140,6 +156,14 @@
                 "id": "f66db19d-2ace-46b7-8f03-1bf260df9cdc",
                 "resourcePath": "views\\98106f43-e624-452b-bc45-f3d12349652f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b0c2a63-99df-4fb6-a002-bc88a92e95db",
+            "Value": {
+                "id": "952fecaf-4464-4222-ac95-ad5f3a0f25b9",
+                "resourcePath": "objects\\obj_rat\\obj_rat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
