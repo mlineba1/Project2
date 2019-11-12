@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02291a10-91f5-44c1-a513-af4532f011fc",
+            "Value": {
+                "id": "382e53b7-8f01-4b7c-ab3c-589d899e1bf1",
+                "resourcePath": "objects\\obj_block\\obj_block.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ff7fba6-f240-4b96-bd9f-137956f91086",
             "Value": {
                 "id": "f5a30de0-4701-4857-adcd-bc577ae7794d",
@@ -50,7 +58,7 @@
             "Key": "25fa3c23-4b02-497e-aa07-307e2de66530",
             "Value": {
                 "id": "3001279a-0d87-4499-9aad-0726d9fbddd6",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -63,11 +71,43 @@
             }
         },
         {
+            "Key": "3833194a-980b-4cef-a386-cf7d4076561e",
+            "Value": {
+                "id": "a3afe4bc-09cf-4e89-8ede-c1cd8b6dde6c",
+                "resourcePath": "objects\\obj_gameController\\obj_gameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "492b7f36-2fc6-49fd-a4db-4dc6fa09a8b3",
+            "Value": {
+                "id": "b877f017-43ef-46e5-845b-1a24506304c1",
+                "resourcePath": "objects\\obj_roomViewController\\obj_roomViewController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c4c6477-45b9-4f39-bffb-ad8fee3862b9",
+            "Value": {
+                "id": "1c8d38a2-d7d3-4a33-a25c-efc09c86b705",
+                "resourcePath": "sprites\\spr_block\\spr_block.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e6481f9-a980-4346-b2a7-006c708efd3c",
             "Value": {
                 "id": "a6eab517-e6e6-4387-8b01-a5e53c51ae65",
                 "resourcePath": "views\\5e6481f9-a980-4346-b2a7-006c708efd3c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ba40523-0c46-4a7b-91c1-743a181ec232",
+            "Value": {
+                "id": "2b622e4c-1aa5-404f-a6ef-4dbc8473051e",
+                "resourcePath": "objects\\obj_startRoomTurn\\obj_startRoomTurn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -111,6 +151,22 @@
             }
         },
         {
+            "Key": "a4ac2ec9-f7cd-4fa1-9d04-85c586757cb8",
+            "Value": {
+                "id": "4d153fbd-d674-4dd9-ae54-17a9015e728e",
+                "resourcePath": "sprites\\spr_startRoomTurn\\spr_startRoomTurn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8aa29c0-a6aa-4ddb-9d6d-577ca296101d",
+            "Value": {
+                "id": "0ec17369-9649-4373-afcb-213fc2035625",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "b78edfc6-68df-4dad-86a3-17018f194445",
@@ -143,6 +199,14 @@
             }
         },
         {
+            "Key": "bfe7ef1b-14c7-40a5-93cd-1e5665c26c05",
+            "Value": {
+                "id": "4b44f5c1-48fa-430b-9db2-093fcb872854",
+                "resourcePath": "scripts\\turnRoom\\turnRoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "cde10c19-dde6-4f58-a9b7-7f7c6d918ef5",
@@ -156,6 +220,14 @@
                 "id": "39e5de31-0d2f-4f08-8a4e-488f7b9e130c",
                 "resourcePath": "views\\d765eda3-e1b0-4bfe-b689-c62448bd6b5e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ecc947f9-d538-453d-8610-60eb49adea64",
+            "Value": {
+                "id": "b171ae0d-f563-459c-9d22-ee2abe7fa10a",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -192,7 +264,7 @@
         }
     ],
     "script_order": [
-        
+        "bfe7ef1b-14c7-40a5-93cd-1e5665c26c05"
     ],
     "tutorial": ""
 }
