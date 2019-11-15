@@ -66,3 +66,6 @@ if (place_meeting(x,y+ymov,obj_block))
 // Change the player's position
 x += xmov;
 y += ymov
+
+
+//invincibility

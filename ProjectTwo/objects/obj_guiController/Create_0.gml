@@ -4,3 +4,4 @@ globalvar pHealth;
 score = 0;
 lives = 3;
 pHealth = 5;
+health = 100;
