@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "91e20696-2531-4498-bb06-72ca11c1f7f5",
+            "Value": {
+                "id": "4af1fd1c-ead0-449b-9f16-d274870c172e",
+                "resourcePath": "objects\\obj_powerUp1\\obj_powerUp1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98106f43-e624-452b-bc45-f3d12349652f",
             "Value": {
                 "id": "f66db19d-2ace-46b7-8f03-1bf260df9cdc",

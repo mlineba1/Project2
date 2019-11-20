@@ -5,3 +5,5 @@ ymov = 0; // How much the player's y position moves every step
 vspeed = -3;
 invincible = false;
 attacked = false;
+globalvar powerup1;
+powerup1 = false;

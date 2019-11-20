@@ -63,6 +63,7 @@ if (place_meeting(x,y+ymov,obj_block))
 	ymov = 0;
 }
 
+
 // Change the player's position
 x += xmov;
 y += ymov
