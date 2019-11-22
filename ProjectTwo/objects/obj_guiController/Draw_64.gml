@@ -18,3 +18,11 @@ for(var i = pHealth; i > 0; --i) {
 	draw_sprite(spr_player, 0, 200 + offset, 50);
 	offset += sprite_get_width(spr_player) + 16;
 }
+
+if(health <=0 )
+{
+	lives = lives -1;
+	obj_player.x = 
+	
+	
+}
