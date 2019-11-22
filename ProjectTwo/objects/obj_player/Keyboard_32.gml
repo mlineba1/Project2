@@ -1,3 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-y = y-20;
+/// @description simple "jump" used for debugging
+if(roomFlipped){
+y = y+20;
+} else {
+	y = y-20;
+}
