@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(powerup1){
-	grav_strength = 2;
-}
+globalvar powerup1; // For collecting powerup 1
+powerup1 = false;

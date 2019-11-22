@@ -18,3 +18,4 @@ for(var i = pHealth; i > 0; --i) {
 	draw_sprite(spr_player, 0, 200 + offset, 50);
 	offset += sprite_get_width(spr_player) + 16;
 }
+
