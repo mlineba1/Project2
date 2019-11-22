@@ -33,6 +33,56 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
+        },
+        {
+            "id": "b9184c00-b841-4b23-a6cb-b99891fa8925",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 5,
+            "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
+        },
+        {
+            "id": "4c9d5375-6700-4913-8711-6910f929778f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 69,
+            "eventtype": 9,
+            "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
+        },
+        {
+            "id": "010cbccb-d426-4a33-8b21-996bb529c2ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 69,
+            "eventtype": 10,
+            "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
+        },
+        {
+            "id": "b14ced10-984d-4c55-9dbb-9f082baf02f9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "6ba40523-0c46-4a7b-91c1-743a181ec232",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
+        },
+        {
+            "id": "f596748e-d88a-4f45-97e1-55020a8b9bdf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "ecc947f9-d538-453d-8610-60eb49adea64"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
