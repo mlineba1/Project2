@@ -15,18 +15,25 @@ if (keyboard_check(ord("A")) && keyboard_check(ord("D")))
 }else if (keyboard_check(ord("A")))
 {
 	// Move in the left direction
+	sprite_index = spr_playerWalk_Left;
 	xmov = dcos(move_angle + 90) * player_speed;
 	ymov = dsin(move_angle + 90) * player_speed;
+	
+	
 }else if (keyboard_check(ord("D")))
 {
 	// Move in the right direction
+	sprite_index = spr_playerWalk_Right;
 	xmov = dcos(move_angle - 90) * player_speed;
 	ymov = dsin(move_angle - 90) * player_speed;
+	
+	
 }else
 {
 	// Don't move if neither left nor right is being pressed
 	xmov = 0;
 	ymov = 0;
+	sprite_index = spr_player;
 }
 
 // If there's not a block below the character
@@ -69,4 +76,3 @@ x += xmov;
 y += ymov
 
 
-//invincibility
