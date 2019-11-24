@@ -19,14 +19,26 @@ for(var i = pHealth; i > 0; --i) {
 	offset += sprite_get_width(spr_player) + 16;
 }
 
-if(pHealth <= 0){
-	draw_text(view_wport[0]/2, view_hport[0]/2, "You Lose!");
-	lives -=1;
-	obj_player.x = 128;
-obj_player.y = 864;
 
-if(lives <= 0){
-	game_restart()
+if(pHealth <= 0 ){
+		if(lives == 0){
+			draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
+			alarm[0] = room_speed * 3;
+		}
+	draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
+	alarm[1] = room_speed * 3;
+	instance_destroy(obj_playerPart2);
+	instance_destroy(obj_player);
+	pHealth = 5;
+	lives -=1;
 }
-	//alarm[0] = 1;
+	
+if(win){
+	draw_text(view_wport[0]/2, view_hport[0]/2, "Thank you for playing the demo! \nPress Enter to restart");
+	instance_destroy(obj_playerPart2);
+	instance_destroy(obj_player);
 }
+
+
+
+
