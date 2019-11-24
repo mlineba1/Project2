@@ -5,7 +5,12 @@ image_angle = -global.room_angle;
 if (keyboard_check(ord("A")))
 {
 	image_xscale = left_side;
+	sprite_index = spr_playerWalk_right;
 }else if (keyboard_check(ord("D")))
 {
 	image_xscale = right_side;
+	sprite_index = spr_playerWalk_right;
+}else
+{
+	sprite_index = spr_player;
 }
