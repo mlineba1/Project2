@@ -23,16 +23,21 @@ if (keyboard_check(ord("A")) && keyboard_check(ord("D")))
 }else if (keyboard_check(ord("A")))
 {
 	// Move in the left direction
+	
 	side_mov_x = dcos(move_angle + 90) * player_speed;
 	side_mov_y = dsin(move_angle + 90) * player_speed;
+	sprite_index = spr_playerWalk_left;
 }else if (keyboard_check(ord("D")))
 {
 	// Move in the right direction
+	
 	side_mov_x = dcos(move_angle - 90) * player_speed;
 	side_mov_y = dsin(move_angle - 90) * player_speed;
+	sprite_index = spr_playerWalk_right;
 }else
 {
 	// Don't move if neither left nor right is being pressed
+	sprite_index = spr_player;
 	side_mov_x = 0;
 	side_mov_y = 0;
 }
@@ -43,6 +48,7 @@ if (keyboard_check(ord("A")) && keyboard_check(ord("D")))
 if (keyboard_check(ord("W")) && place_meeting(x+dcos(move_angle),y+dsin(move_angle), obj_block))
 {
 	// Set the amount of jump speed remaining to the max strength
+
 	jump_remaining = jump_strength;
 }
 
