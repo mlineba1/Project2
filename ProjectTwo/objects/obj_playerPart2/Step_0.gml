@@ -6,11 +6,35 @@ if (keyboard_check(ord("A")))
 {
 	image_xscale = left_side;
 	sprite_index = spr_playerWalk_right;
+	
+	if (keyboard_check(ord("W")))
+	{	
+		image_xscale = left_side;
+		sprite_index = spr_player_jump;
+	
+	}
+	
 }else if (keyboard_check(ord("D")))
 {
 	image_xscale = right_side;
 	sprite_index = spr_playerWalk_right;
+	
+	if (keyboard_check(ord("W")))
+	{	
+		image_xscale = right_side;
+		sprite_index = spr_player_jump;
+	
+	}
+	
 }else
 {
 	sprite_index = spr_player;
 }
+
+
+if (keyboard_check(ord("W")))
+	{	
+		//image_xscale = right_side;
+		sprite_index = spr_player_jump;
+	
+	}
