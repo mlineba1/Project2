@@ -10,7 +10,7 @@ draw_text(50, 50, string("Score: ") + string(score));
 
 
 //if(!variable_instance_exists(id, "lives"))
-draw_text(800,50, string("Lives: ")+string(lives));
+draw_text(800,50, string("Lives: ")+string(lives+1));
 
 offset = 0;
 if(!variable_instance_exists(id, "pHealth"))
@@ -21,17 +21,19 @@ for(var i = pHealth; i > 0; --i) {
 
 
 if(pHealth <= 0 ){
-		if(lives == 0){
-			draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
+		if(lives <= 0){
 			alarm[0] = room_speed * 3;
+		} else {
+			alarm[1] = room_speed * 3;
 		}
-	draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
-	alarm[1] = room_speed * 3;
 	instance_destroy(obj_playerPart2);
 	instance_destroy(obj_player);
 	pHealth = 5;
 	lives -=1;
 }
+
+if(!instance_exists(obj_player) && lives > -1) draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
+if(!instance_exists(obj_player) && lives == -1) draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
 	
 if(win){
 	draw_text(view_wport[0]/2, view_hport[0]/2, "Thank you for playing the demo! \nPress Enter to restart");
