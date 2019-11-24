@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "11473f02-b406-4ebb-93ea-d48726b8b79e",
+            "Value": {
+                "id": "356bcd5b-527e-41e8-9751-646e9e5176ad",
+                "resourcePath": "sprites\/spr_arrowReverse\/spr_arrowReverse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1272304f-ca7d-4ca4-aa06-054b4ee1616b",
             "Value": {
                 "id": "a22152f9-cc03-4990-8378-37f36b167a2c",

@@ -38,3 +38,9 @@ if (keyboard_check(ord("W")))
 		sprite_index = spr_player_jump;
 	
 	}
+
+if (keyboard_check(vk_space))
+{	
+	attack = true;
+	sprite_index = spr_player_attack;
+}
