@@ -5,7 +5,7 @@ if (attack)
 		
 		if (alarm[0] == -1)
 		{
-			alarm = 3;
+			alarm = 1;
 		}
 		
 	}	
