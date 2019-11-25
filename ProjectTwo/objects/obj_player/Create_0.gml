@@ -14,7 +14,3 @@ globalvar invincible; // for when the player is attacked
 invincible = false;
 
 attacked = false;
-
-
-
-
