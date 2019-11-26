@@ -32,7 +32,7 @@ if(pHealth <= 0 ){
 	lives -=1;
 }
 
-if(!instance_exists(obj_player) && lives > -1) draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
+if(!instance_exists(obj_player) && lives > -1 && !win) draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
 if(!instance_exists(obj_player) && lives == -1) draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
 	
 if(win){
