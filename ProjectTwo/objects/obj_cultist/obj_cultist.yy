@@ -51,7 +51,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "1059bd47-cfb3-45e2-8f44-1ea6bcf5abcf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "shot_delay",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "c1390104-74b3-49a9-ae3d-60ebc3d20e54",
     "visible": true

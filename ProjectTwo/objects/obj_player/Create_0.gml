@@ -1,5 +1,5 @@
 // Player Movement Variables
-player_speed = 3; // How fast the player moves
+player_speed = 4; // How fast the player moves
 jump_strength = 50; // How quickly and high the player jumps upwards
 grav_strength = -5; // How quickly the player falls back down
 jump_remaining = 0; // The remaining amount of jump velocity/gravity the player has

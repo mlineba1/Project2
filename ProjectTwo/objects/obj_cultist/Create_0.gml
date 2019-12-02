@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-alarm[0] = 180;
+alarm[0] = 180 + shot_delay;
