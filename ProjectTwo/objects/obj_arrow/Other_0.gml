@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Destroy arrow when it leaves the room
 instance_destroy();

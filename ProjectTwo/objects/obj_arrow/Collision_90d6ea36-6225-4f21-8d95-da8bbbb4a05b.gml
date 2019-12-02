@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Destroy the arrow when it collides with a block
 instance_destroy();
