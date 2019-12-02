@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Start the alarm for shooting the arrow after the attack animation ends
 if (attack)
 	{
 		

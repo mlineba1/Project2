@@ -1,7 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-instance_destroy(obj_arrow);
+// Destroy the rat when the arrow collides with it
 with (other)
 {
 instance_destroy();
 }
+
+// Destroy the arrow
+instance_destroy();

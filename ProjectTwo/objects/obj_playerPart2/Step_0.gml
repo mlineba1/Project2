@@ -28,7 +28,9 @@ if (keyboard_check(ord("A")))
 	
 }else
 {
-	sprite_index = spr_player;
+	if (attack == false){
+		sprite_index = spr_player;
+	}
 }
 
 
@@ -39,8 +41,9 @@ if (keyboard_check(ord("W")))
 	
 	}
 
-if (keyboard_check(vk_space))
+if (keyboard_check(vk_space) && attack == false)
 {	
 	attack = true;
 	sprite_index = spr_player_attack;
+	//image_speed = 1;
 }
