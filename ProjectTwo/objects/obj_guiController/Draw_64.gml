@@ -15,8 +15,8 @@ draw_text(800,50, string("Lives: ")+string(lives+1));
 offset = 0;
 if(!variable_instance_exists(id, "pHealth"))
 for(var i = pHealth; i > 0; --i) {
-	draw_sprite(spr_player, 0, 200 + offset, 50);
-	offset += sprite_get_width(spr_player) + 16;
+	draw_sprite(spr_life, 0, 200 + offset, 50);
+	offset += sprite_get_width(spr_life);
 }
 
 
