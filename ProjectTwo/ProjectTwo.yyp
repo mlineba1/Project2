@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "027953dd-db04-4b61-9c14-a8877823ec64",
+            "Value": {
+                "id": "d287684d-3d36-4bd4-8696-b1b3bf8567ec",
+                "resourcePath": "objects\\obj_powerUp2\\obj_powerUp2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ff7fba6-f240-4b96-bd9f-137956f91086",
             "Value": {
                 "id": "f5a30de0-4701-4857-adcd-bc577ae7794d",
@@ -63,11 +71,27 @@
             }
         },
         {
+            "Key": "16197348-c07c-42a7-9f2c-fe4a9f00b654",
+            "Value": {
+                "id": "bdb242ea-e329-490d-b71e-d7f26a15ba86",
+                "resourcePath": "objects\\obj_cultist\\obj_cultist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a034c23-88aa-45fe-8c07-400f82136779",
             "Value": {
                 "id": "4f5f2137-d2d0-472b-b1f6-6d5e6b11efa6",
                 "resourcePath": "views\/1a034c23-88aa-45fe-8c07-400f82136779.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1d318574-d8ca-48c0-8360-b3b6a8b8e5b5",
+            "Value": {
+                "id": "b2eb7ec9-fe96-45b2-88b5-a344067c693d",
+                "resourcePath": "sprites\\spr_cultistAttack\\spr_cultistAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "4accdfd8-6586-4886-abb3-4d1a2f878357",
+            "Value": {
+                "id": "93818ed5-b154-4541-8080-167bcfe42340",
+                "resourcePath": "views\\4accdfd8-6586-4886-abb3-4d1a2f878357.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4ec5d2c0-5bbe-49dd-abdc-7d05132b26bd",
             "Value": {
                 "id": "ba94d8ab-dda8-46f1-a876-61714af5fdd5",
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "6ddb1b40-9bda-40ac-8a6d-74d048820d98",
+            "Value": {
+                "id": "f6d0faa4-deb9-4878-9372-c344a572ec0a",
+                "resourcePath": "objects\\obj_cultistStationary\\obj_cultistStationary.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "738bce5a-dde9-482f-963e-530df51adb81",
             "Value": {
                 "id": "141275e4-becd-45e2-8345-2c3a148b11c2",
@@ -236,6 +276,14 @@
                 "id": "7a7e1391-81b2-4192-a732-f08d7bfd5180",
                 "resourcePath": "sprites\/spr_rat\/spr_rat.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "856aeb0e-ae20-4fac-81de-3261b663ed61",
+            "Value": {
+                "id": "4556c985-7a22-4db8-9a67-9cdb40832d9b",
+                "resourcePath": "views\\856aeb0e-ae20-4fac-81de-3261b663ed61.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -399,6 +447,14 @@
             }
         },
         {
+            "Key": "c1390104-74b3-49a9-ae3d-60ebc3d20e54",
+            "Value": {
+                "id": "6dd60908-6414-41be-9968-92dfa64a86d7",
+                "resourcePath": "sprites\\spr_cultistWalk\\spr_cultistWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9539b33-3a39-42f9-a536-fb24b069e891",
             "Value": {
                 "id": "0c164427-92d5-4926-8aad-7c3c37ab7e57",
@@ -412,6 +468,14 @@
                 "id": "cde10c19-dde6-4f58-a9b7-7f7c6d918ef5",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdfbdc4d-88fc-43bd-9eaf-42873c2cbcc8",
+            "Value": {
+                "id": "4f94718e-c687-48a8-962e-eebef8090934",
+                "resourcePath": "paths\\CultPath1\\CultPath1.yy",
+                "resourceType": "GMPath"
             }
         },
         {

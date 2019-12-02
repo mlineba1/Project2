@@ -1,0 +1,1 @@
+path_start(CultPath1, 6, path_action_reverse, true);
