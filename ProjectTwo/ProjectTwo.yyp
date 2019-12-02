@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "562b4fc4-ef27-4309-9333-c34a18dc783b",
+            "Value": {
+                "id": "5b9bbd37-2c06-43d5-af98-c1ae29c4b17e",
+                "resourcePath": "sprites\\spr_cultistFireball\\spr_cultistFireball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c4c6477-45b9-4f39-bffb-ad8fee3862b9",
             "Value": {
                 "id": "1c8d38a2-d7d3-4a33-a25c-efc09c86b705",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "68c2c9a3-70eb-41c9-8c06-afa00e3f5704",
+            "Value": {
+                "id": "710b1ce5-09ce-4f66-adc4-889f54512d6e",
+                "resourcePath": "objects\\obj_cFireball\\obj_cFireball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ba40523-0c46-4a7b-91c1-743a181ec232",
             "Value": {
                 "id": "2b622e4c-1aa5-404f-a6ef-4dbc8473051e",
@@ -244,6 +260,14 @@
                 "id": "f6d0faa4-deb9-4878-9372-c344a572ec0a",
                 "resourcePath": "objects\\obj_cultistStationary\\obj_cultistStationary.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72cda914-caa2-4523-95e8-69d5c179ff10",
+            "Value": {
+                "id": "f28d0016-50c1-444d-bf97-7873bc6faf87",
+                "resourcePath": "sprites\\spr_powerup1\\spr_powerup1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -532,6 +556,14 @@
                 "id": "b171ae0d-f563-459c-9d22-ee2abe7fa10a",
                 "resourcePath": "objects\/obj_player\/obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed7308cc-3331-4403-a7cb-580c19360c6f",
+            "Value": {
+                "id": "a91e67ee-4280-4c80-a4a0-b3eb578d302d",
+                "resourcePath": "sprites\\spr_powerup2\\spr_powerup2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
