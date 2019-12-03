@@ -42,12 +42,34 @@ if (keyboard_check(ord("A")) && keyboard_check(ord("D")))
 
 // Jumping and gravity
 
-// Jump if W is pressed and the player is on the ground
+
+// Jumping after the second powerup is grabbed
+if(powerup2){
+	jlimit = 1; 
+	// if W is pressed and the player has available jumps
+	if (keyboard_check(ord("W")) &&  powerup2 && jcount < jlimit && jcooldown)
+	{
+	// Set the amount of jump speed remaining to the max strength
+
+		jump_remaining = jump_strength;
+		jcount++;
+		jcooldown = false;
+		alarm[1] = 15; // so the player can't double-jump in 2 frames
+	}
+} else {
+	// if powerup 2 hasnt been collected;
+	// Jump if W is pressed and the player is on the ground
 if (keyboard_check(ord("W")) && place_meeting(x+dcos(move_angle),y+dsin(move_angle), obj_block))
 {
 	// Set the amount of jump speed remaining to the max strength
 
 	jump_remaining = jump_strength;
+}
+}
+
+	// Resets the double-jump after the player touches the ground
+if(place_meeting(x+dcos(move_angle),y+dsin(move_angle), obj_block)){
+	jcount = 0
 }
 
 // Add gravity to the player, and reduce the jump speed remaining

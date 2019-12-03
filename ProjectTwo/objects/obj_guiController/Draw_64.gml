@@ -13,10 +13,19 @@ draw_text(50, 50, string("Score: ") + string(score));
 draw_text(800,50, string("Lives: ")+string(lives+1));
 
 offset = 0;
+offset2 = 0;
 if(!variable_instance_exists(id, "pHealth"))
-for(var i = pHealth; i > 0; --i) {
-	draw_sprite(spr_player, 0, 200 + offset, 50);
-	offset += sprite_get_width(spr_player) + 16;
+for(var i = 0; i < pHealth; ++i) {
+	if(i<5){
+	draw_sprite(spr_health, 0, 164 + offset, 50);
+	offset += sprite_get_width(spr_health);
+	}
+	if(i>=5){
+		draw_sprite(spr_life, 0, 164 + offset2, 50);
+		offset2 += sprite_get_width(spr_life);
+	}
+	
+	
 }
 
 
@@ -25,6 +34,9 @@ if(pHealth <= 0 ){
 			alarm[0] = room_speed * 3;
 		} else {
 			alarm[1] = room_speed * 3;
+			if(score>=10){
+			score -=10;
+			}
 		}
 	instance_destroy(obj_playerPart2);
 	instance_destroy(obj_player);
@@ -33,7 +45,7 @@ if(pHealth <= 0 ){
 }
 
 if(!instance_exists(obj_player) && lives > -1 && !win) draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
-if(!instance_exists(obj_player) && lives == -1) draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
+if(!instance_exists(obj_player) && lives == -1 && !win) draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
 	
 if(win){
 	draw_text(view_wport[0]/2, view_hport[0]/2, "Thank you for playing the demo! \nPress Enter to restart");
@@ -42,5 +54,25 @@ if(win){
 }
 
 
+if(powerup1&&notforlong){
+	notforlong = false;
+	notforlong2 = true;
+	alarm[2] = 300;
+	
+	
+}
+if(notforlong2){
+	draw_text(view_wport[0]/2, view_hport[0]/2, "You've collected a slowfall potion! \nHold E to fall slowly,\nHold E and press W to super jump!");
+}
 
+if(powerup2&&notforlong3){
+	notforlong3 = false;
+	notforlong4 = true;
+	alarm[3] = 300;
+	
+	
+}
+if(notforlong4){
+	draw_text(view_wport[0]/2, view_hport[0]/2, "You've collected a strength potion! \nFireballs dont hurt as much,\nTap W in the air to double-jump!");
+}
 

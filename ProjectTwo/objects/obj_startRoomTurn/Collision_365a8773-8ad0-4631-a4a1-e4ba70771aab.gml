@@ -2,4 +2,5 @@
 
 turnRoom(-0.2,-180); // argument signs need to match or it won't work
 startFlip = true;
+score+=50;
 instance_destroy();

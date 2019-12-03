@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(roomFlipped && onlyonce){
 	instance_create_depth(960,576,layer_get_id("Instances"), obj_powerUp1 );
-	instance_create_depth(1792,640,layer_get_id("Instances"), obj_exit );
+	instance_create_depth(1728,640,layer_get_id("Instances"), obj_exit );
 	instance_destroy(rat1);
 	instance_destroy(rat2);
 	instance_destroy(rat3);
