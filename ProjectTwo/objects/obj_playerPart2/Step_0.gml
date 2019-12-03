@@ -23,6 +23,7 @@ if (keyboard_check(ord("A")))
 	{	
 		image_xscale = right_side;
 		sprite_index = spr_player_jump;
+		
 	
 	}
 	
