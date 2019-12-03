@@ -5,3 +5,4 @@
 event_inherited();
 
 alarm[0] = 180 + shot_delay;
+alarm[1] = (180 + shot_delay) - 60;

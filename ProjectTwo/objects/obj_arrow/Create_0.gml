@@ -3,7 +3,7 @@
 
 image_angle = -global.room_angle;
 
-speed_amount = 4;
+speed_amount = 6;
 
 if (obj_playerPart2.image_xscale == 1)
 {

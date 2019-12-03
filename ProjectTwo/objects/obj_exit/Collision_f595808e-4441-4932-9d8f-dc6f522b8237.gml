@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(powerup1){
-win = true;
-}
+
+room_goto_next();
+
+score+=100;

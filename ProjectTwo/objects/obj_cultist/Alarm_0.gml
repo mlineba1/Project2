@@ -1,9 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Shoot fireball
 if(roomFlipped){
 	instance_create_depth(x,y+64,layer_get_id("instances"), obj_cFireball);
-alarm[0] = 180 + shot_delay;
+	sprite_index = spr_cultistWalk;
+	alarm[0] = 180 + shot_delay
+	alarm[1] = (180 + shot_delay) - 60;
 } else {
-instance_create_depth(x,y-64,layer_get_id("instances"), obj_cFireball);
-alarm[0] = 180 + shot_delay;
+	sprite_index = spr_cultistWalk;
+	instance_create_depth(x,y-64,layer_get_id("instances"), obj_cFireball);
+	alarm[0] = 180 + shot_delay;
+	alarm[1] = (180 + shot_delay) - 60;
 }
