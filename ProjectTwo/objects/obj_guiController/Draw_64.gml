@@ -13,10 +13,18 @@ draw_text(50, 50, string("Score: ") + string(score));
 draw_text(800,50, string("Lives: ")+string(lives+1));
 
 offset = 0;
+offset2 = 0;
 if(!variable_instance_exists(id, "pHealth"))
 for(var i = 0; i < pHealth; ++i) {
+	if(i<5){
 	draw_sprite(spr_health, 0, 164 + offset, 50);
 	offset += sprite_get_width(spr_health);
+	}
+	if(i>=5){
+		draw_sprite(spr_life, 0, 164 + offset2, 50);
+		offset2 += sprite_get_width(spr_life);
+	}
+	
 	
 }
 

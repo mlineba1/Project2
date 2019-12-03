@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "126298d3-5c90-44c3-9f02-1b572e6213c2",
+            "Value": {
+                "id": "38adbcdc-b040-497d-ae0f-c8b0c2fcb398",
+                "resourcePath": "sprites\\spr_dragonAttack\\spr_dragonAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12c362ab-af15-4481-990c-82943ff189b8",
             "Value": {
                 "id": "f5956368-d62d-4c27-9e29-62a9420133f9",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "1fce910a-5af1-462e-b26e-4176a746e3f5",
+            "Value": {
+                "id": "52be5f17-a669-4e68-8c10-9d3affe0f887",
+                "resourcePath": "objects\\obj_dragon\\obj_dragon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1fcf9d93-1474-4c2c-9627-26602afccd56",
             "Value": {
                 "id": "32a73501-2e5f-48d9-9cb3-6413772218d1",
@@ -132,6 +148,14 @@
                 "id": "3001279a-0d87-4499-9aad-0726d9fbddd6",
                 "resourcePath": "rooms\/rm_test\/rm_test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2767f81d-b340-4dc6-8ba0-dff09c8ee4d8",
+            "Value": {
+                "id": "d94a3d1d-8a63-4acb-94ee-3b1fcc39e1ce",
+                "resourcePath": "sprites\\spr_dragonIdle\\spr_dragonIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "a83f665c-d572-4cc9-a60e-b4c54c8c4fc4",
+            "Value": {
+                "id": "be74beb8-749b-4157-8bbf-cab9714a1d7e",
+                "resourcePath": "rooms\\Level3\\Level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a8aa29c0-a6aa-4ddb-9d6d-577ca296101d",
             "Value": {
                 "id": "0ec17369-9649-4373-afcb-213fc2035625",
@@ -484,6 +516,14 @@
                 "id": "8fab325f-c99c-42b7-9854-b3e3d4afad63",
                 "resourcePath": "views\/ad14251d-29ff-47e9-a6e5-81a70ff70683.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "addc7381-a766-4934-9c1e-6f81f7683b05",
+            "Value": {
+                "id": "16fa2c48-be6f-4eac-b043-539bb00f86ea",
+                "resourcePath": "sprites\\spr_level3a\\spr_level3a.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
