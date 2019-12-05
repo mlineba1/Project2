@@ -1,1 +1,0 @@
-path_start(DragonPath1, 6, path_action_stop, true);

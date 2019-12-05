@@ -21,3 +21,5 @@ if(instance_exists(obj_playerPart2)){ //The enemy faces the player
 } else {
 	
 }
+
+
