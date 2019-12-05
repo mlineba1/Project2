@@ -1,2 +1,2 @@
-/// @description collision timer
+/// @description collision time
 invincible = false;
