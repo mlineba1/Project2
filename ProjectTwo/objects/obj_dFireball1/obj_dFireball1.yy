@@ -61,7 +61,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "9a6dfae2-7036-4515-8fef-db6ef54192c4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "offsetF",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "562b4fc4-ef27-4309-9333-c34a18dc783b",
     "visible": true

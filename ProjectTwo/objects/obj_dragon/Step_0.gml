@@ -26,7 +26,3 @@ if(dLife <= 0){
 	instance_destroy();
 }
 
-if(canShoot){
-	alarm[4] = room_speed *4;
-	canShoot = false;
-}
