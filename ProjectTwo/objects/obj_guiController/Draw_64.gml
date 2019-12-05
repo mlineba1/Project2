@@ -3,26 +3,26 @@
 //drew a healthbar with maximum health of 100, and falls by 10% when hit by an enemy.
 //draw_healthbar(100, 100, 500, 150, health, c_white, c_red, c_green, 0, true, true)
 
-draw_set_color(c_black);
+draw_set_color(c_lime);
 
 if(!variable_instance_exists(id, "score")) score = 0;
 draw_text(50, 50, string("Score: ") + string(score));
 
 
 //if(!variable_instance_exists(id, "lives"))
-draw_text(800,50, string("Lives: ")+string(lives+1));
+draw_text(50,75, string("Lives: ")+string(lives+1));
 
 offset = 0;
 offset2 = 0;
 if(!variable_instance_exists(id, "pHealth"))
 for(var i = 0; i < pHealth; ++i) {
 	if(i<5){
-	draw_sprite(spr_health, 0, 164 + offset, 50);
-	offset += sprite_get_width(spr_health);
+	draw_sprite(spr_health, 0, 185 + offset, 50);
+	offset += sprite_get_width(spr_health)+15;
 	}
 	if(i>=5){
-		draw_sprite(spr_life, 0, 164 + offset2, 50);
-		offset2 += sprite_get_width(spr_life);
+		draw_sprite(spr_life, 0, 200 + offset2, 50);
+		offset2 += sprite_get_width(spr_life)+15;
 	}
 	
 	

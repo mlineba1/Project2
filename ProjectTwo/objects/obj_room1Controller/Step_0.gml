@@ -21,7 +21,7 @@ if(roomFlipped && onlyonce){
 	onlyonce = false;
 }
 
-if(startFlip && onlyoncePart2){
+/*if(startFlip && onlyoncePart2){
 	var b1 = instance_create_depth(1696,544,layer_get_id("Instances"), obj_block );
 	var b2 = instance_create_depth(1696,480,layer_get_id("Instances"), obj_block );
 	var b3 = instance_create_depth(1696,416,layer_get_id("Instances"), obj_block  );
@@ -39,4 +39,4 @@ if(startFlip && onlyoncePart2){
 		alarm[0] = room_speed * 15;
 	}
 	onlyoncePart2 = false;
-}
+}*/

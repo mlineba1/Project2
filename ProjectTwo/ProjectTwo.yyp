@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "a96917a3-8260-4ce3-8052-9fd7d9241628",
+            "Value": {
+                "id": "ceea9838-b90f-466d-a5f1-f1b464d9a27b",
+                "resourcePath": "objects\\obj_room3Controller\\obj_room3Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aaa3e1b8-13b1-4cff-ae59-c648042e1fea",
             "Value": {
                 "id": "ae40e23c-cf46-47af-bbf0-82cea2ad704a",
