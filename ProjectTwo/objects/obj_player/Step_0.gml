@@ -116,6 +116,14 @@ if (place_meeting(x,y+total_mov_y,obj_block))
 x += total_mov_x;
 y += total_mov_y;
 
+if(room3){
+	if(x<0){ x = 1890; }
+	if(x > 1920){ x = 30; }
+	if(y<0) { y = 1050; }
+	if(y>1080) { y = 30; }
+	
+}
+
 /* End of Player Movement Code */
 
 //invincibility

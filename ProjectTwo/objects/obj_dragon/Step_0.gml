@@ -2,6 +2,8 @@
 // You can write your code in this editor
 if(roomFlipped){
 	image_yscale = -1;
+} else {
+	image_yscale = 1;
 }
 
 if(instance_exists(obj_playerPart2)){ //The enemy faces the player
@@ -44,4 +46,10 @@ if(attack3a){
 	alarm[4] = room_speed *4;
 	alarm[5] = room_speed * 2;
 		}
+}
+
+if(flipper){
+
+	alarm[8] = 60;
+	flipper = false;
 }
