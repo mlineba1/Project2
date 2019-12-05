@@ -3,7 +3,7 @@
 //drew a healthbar with maximum health of 100, and falls by 10% when hit by an enemy.
 //draw_healthbar(100, 100, 500, 150, health, c_white, c_red, c_green, 0, true, true)
 
-draw_set_color(c_white);
+draw_set_color(c_black);
 
 if(!variable_instance_exists(id, "score")) score = 0;
 draw_text(50, 50, string("Score: ") + string(score));

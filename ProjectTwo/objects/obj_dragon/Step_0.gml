@@ -22,4 +22,7 @@ if(instance_exists(obj_playerPart2)){ //The enemy faces the player
 	
 }
 
+if(dLife <= 0){
+	instance_destroy();
+}
 
