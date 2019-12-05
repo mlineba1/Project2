@@ -1,4 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Dragon attack animation
 sprite_index = spr_dragonAttack;
 image_index = 0;
+
+

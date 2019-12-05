@@ -20,9 +20,11 @@ for(var i = 0; i < pHealth; ++i) {
 	draw_sprite(spr_health, 0, 185 + offset, 50);
 	offset += sprite_get_width(spr_health)+15;
 	}
-	if(i>=5){
+	if(i>=5 && i<=10){
 		draw_sprite(spr_life, 0, 200 + offset2, 50);
 		offset2 += sprite_get_width(spr_life)+15;
+	}
+	if(i >= 11){
 	}
 	
 	

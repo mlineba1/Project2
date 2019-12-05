@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "07c706ca-958f-45b3-b6ba-e480faed26a1",
+            "Value": {
+                "id": "e8fc043b-9e90-4be1-89d6-1ce193588d28",
+                "resourcePath": "objects\\obj_dFireball1c\\obj_dFireball1c.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "097821fd-58aa-4c1e-bd77-907d45d60319",
             "Value": {
                 "id": "4b136cd6-93bd-498f-9582-cdc73be4825f",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "35d980c5-6a02-41c0-b3ad-4e2c57c38bc1",
+            "Value": {
+                "id": "32af917b-32bf-4dca-8434-00e1943f7538",
+                "resourcePath": "objects\\obj_dFireball1b\\obj_dFireball1b.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36ca0d94-eff3-4488-b368-1b8691826d4e",
             "Value": {
                 "id": "796b4588-c01f-496c-a7ad-0ef3a7481878",
@@ -458,7 +474,7 @@
             "Key": "749b56a6-3b82-4afe-9855-a496207be76f",
             "Value": {
                 "id": "8a20ca8f-2244-42b7-bc8e-8e9ced9d4e78",
-                "resourcePath": "objects\\obj_dFireball1\\obj_dFireball1.yy",
+                "resourcePath": "objects\\obj_dFireball1a\\obj_dFireball1a.yy",
                 "resourceType": "GMObject"
             }
         },

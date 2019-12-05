@@ -9,3 +9,5 @@ powerup2 = false;
 globalvar win;
 win = false;
 
+immortalCheat = false;
+

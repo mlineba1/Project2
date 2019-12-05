@@ -5,3 +5,7 @@ alarm[4] = room_speed *4;
 alarm[5] = room_speed * 2;
 dLife = 100;
 alarm[0] = room_speed * 10;
+attack1 = 0;
+attack2 = 0;
+attack3=  0;
+attack3a=  false;

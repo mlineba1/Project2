@@ -26,3 +26,22 @@ if(dLife <= 0){
 	instance_destroy();
 }
 
+if(attack3a){
+	if(roomFlipped){
+		if(image_xscale == 1){
+			instance_create_depth(x-406,y+126,layer_get_id("instances"), obj_dFireball1a);
+		} else {
+			instance_create_depth(x+406,y+126,layer_get_id("instances"), obj_dFireball1a);
+		}
+	alarm[4] = room_speed *4;
+	alarm[5] = room_speed * 2;
+	} else {
+		if(image_xscale == 1){
+			instance_create_depth(x-406,y-126,layer_get_id("instances"), obj_dFireball1a);
+		} else {
+			instance_create_depth(x+406,y-126,layer_get_id("instances"), obj_dFireball1a);
+		}
+	alarm[4] = room_speed *4;
+	alarm[5] = room_speed * 2;
+		}
+}
