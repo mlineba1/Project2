@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "749b56a6-3b82-4afe-9855-a496207be76f",
+            "Value": {
+                "id": "8a20ca8f-2244-42b7-bc8e-8e9ced9d4e78",
+                "resourcePath": "objects\\obj_dFireball1\\obj_dFireball1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "77f43f81-078a-43cb-9d27-29902efa6cd6",
             "Value": {
                 "id": "47393f5e-de24-4cca-b9c2-2d9144e5dd66",
