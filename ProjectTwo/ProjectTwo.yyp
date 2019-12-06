@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "c359b1d0-5983-4d1b-8d80-caad2f20c4fd",
+            "Value": {
+                "id": "087afe56-9f9d-4b5b-b089-1ef695d38ae9",
+                "resourcePath": "sprites\\spr_spike2\\spr_spike2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c3f8f2da-00b8-4493-acdd-995b3b4c6d06",
             "Value": {
                 "id": "87ea6b42-3ec1-4725-933b-3d3dde4b1ea9",
