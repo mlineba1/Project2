@@ -4,3 +4,5 @@ score += 250;
 if(lives > 5){
 	score += 500;
 }
+
+win = true;
