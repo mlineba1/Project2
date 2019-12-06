@@ -49,12 +49,7 @@ if(pHealth <= 0 ){
 if(!instance_exists(obj_player) && lives > -1 && !win) draw_text(view_wport[0]/2, view_hport[0]/2, "You Died!");
 if(!instance_exists(obj_player) && lives == -1 && !win) draw_text(view_wport[0]/2, view_hport[0]/2, "Game Over!");
 	
-if(win){
-	instance_destroy(obj_playerPart2);
-	instance_destroy(obj_player);
-	room_goto(5);
-	
-}
+
 
 
 if(powerup1&&notforlong){

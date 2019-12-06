@@ -5,5 +5,5 @@ if(hitCount == 5 || hitCount == 11 || hitCount == 17 || hitCount == 23 || hitCou
 	flipper = true;
 	hitCount ++;
 }
-dLife -=4;
+dLife -=100;
 instance_destroy(other);
