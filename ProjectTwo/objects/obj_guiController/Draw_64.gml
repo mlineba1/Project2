@@ -60,7 +60,7 @@ if(powerup1&&notforlong){
 	
 }
 if(notforlong2){
-	draw_text(view_wport[0]/2, view_hport[0]/2, "You've collected a slowfall potion! \nHold E to fall slowly,\nHold E and press W to super jump!");
+	draw_text(view_wport[0]/2, view_hport[0]/2, "You've collected a slowfall potion! \nHold Shift to fall slowly,\nHold Shift and press W to super jump!");
 }
 
 if(powerup2&&notforlong3){
