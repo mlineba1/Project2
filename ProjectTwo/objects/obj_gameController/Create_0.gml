@@ -9,3 +9,8 @@ powerup2 = false;
 globalvar win;
 win = false;
 
+globalvar room3;
+room3 = false;
+
+immortalCheat = false;
+

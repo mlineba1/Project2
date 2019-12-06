@@ -32,5 +32,7 @@ if(roomFlipped && onlyonce){
 		shot_delay = 0;
 		
 		}
+		var back_id = layer_background_get_id(layer_get_id("Background"));
+		layer_background_sprite(back_id, spr_level2b);
 	onlyonce = false;
 }
