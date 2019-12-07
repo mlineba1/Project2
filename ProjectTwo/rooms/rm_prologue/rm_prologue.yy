@@ -2,7 +2,7 @@
 {
     "name": "rm_prologue",
     "id": "1a562b8d-170b-43c5-a514-f8c0d1c23375",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -6,4 +6,5 @@ if(lives > 5){
 }
 
 win = true;
+audio_play_sound(snd_dragonRoar_death,1,false);
 room_goto(5);
