@@ -1,5 +1,5 @@
 {
-    "id": "e8f7a2f3-8acb-4986-9019-566f039e9daa",
+    "id": "c1d78067-2a5c-474e-80e6-95db60798fa6",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_cursorClick",

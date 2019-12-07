@@ -1,8 +1,8 @@
 {
-    "id": "cf797eee-2a3f-4a6f-b43f-92f00c2e77f2",
+    "id": "1d49ef84-d169-472a-81d0-b8db9e96c816",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_Lv1_BGM",
+    "name": "snd_arrowShoot",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

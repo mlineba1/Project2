@@ -46,6 +46,6 @@ if (keyboard_check(vk_space) && attack == false)
 {	
 	attack = true;
 	sprite_index = spr_player_attack;
-	audio_play_sound(snd_arrows,1,false);
+	audio_play_sound(snd_arrowShoot,1,false);
 	//image_speed = 1;
 }

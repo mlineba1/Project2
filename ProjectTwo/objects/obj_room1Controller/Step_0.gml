@@ -38,7 +38,11 @@ if(roomFlipped && onlyonce){
 		}
 	}
 	
-
+	// Change the spikes to green after the turn
+	if (instance_exists(obj_spike))
+	{
+		obj_spike.sprite_index = spr_spike2;
+	}
 	
 	/*
 	if (instance_exists(obj_blockL))

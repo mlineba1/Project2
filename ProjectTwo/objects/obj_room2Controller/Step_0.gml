@@ -34,5 +34,12 @@ if(roomFlipped && onlyonce){
 		}
 		var back_id = layer_background_get_id(layer_get_id("Background"));
 		layer_background_sprite(back_id, spr_level2b);
+		
+		// Change the color of the blocks once they flip
+		if (instance_exists(obj_block))
+		{
+			obj_block.image_blend = make_color_rgb(0, 51, 24);
+		}
+		
 	onlyonce = false;
 }

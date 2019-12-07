@@ -1,5 +1,5 @@
 {
-    "id": "52a093ab-7f8e-4609-acbf-17702c94ba6e",
+    "id": "11fb8cd6-e3ee-48f6-96ef-f04371d12a25",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_mageDeath",

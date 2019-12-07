@@ -5,16 +5,6 @@
     "name": "obj_powerUp1",
     "eventList": [
         {
-            "id": "4bbc6a3a-6a87-4c6a-a858-d9c874212b5e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "ecc947f9-d538-453d-8610-60eb49adea64",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "91e20696-2531-4498-bb06-72ca11c1f7f5"
-        },
-        {
             "id": "da28fe60-7048-4565-96b0-e21c9d234f4c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "91e20696-2531-4498-bb06-72ca11c1f7f5"
+        },
+        {
+            "id": "f6463077-fc9d-4c1d-b6c9-b0275e1824ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "1fcf9d93-1474-4c2c-9627-26602afccd56",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "91e20696-2531-4498-bb06-72ca11c1f7f5"
         }
     ],
