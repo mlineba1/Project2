@@ -1,3 +1,4 @@
+----------------- ALMIGHTY ANNA ------------------
 A - Move left
 D - Move Right
 W - Jump
@@ -61,3 +62,6 @@ Sounds and music below are credited to the following sources:
 Artwork:
 
 All artwork is original and created by Alea Rogowski
+
+Developed by:
+Marc Lineback, Kathy Seol, Kortni Jackson, and Alea Rogowski
