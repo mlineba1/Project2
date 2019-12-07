@@ -6,3 +6,4 @@ instance_destroy();
 
 // Destroy the arrow
 instance_destroy();
+audio_play_sound(snd_ratDeath,1,false);
